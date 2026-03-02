@@ -25,7 +25,7 @@ public class EvaluateReversePolishNotation {
 
         for (int i = 0; i < tokens.length; i++) {
 
-            for (int j=1 ;j<)
+//            for (int j=1 ;j<)
             if (operators.contains(tokens[i])) {
                 stack.push(tokens[i]);
             } else {
